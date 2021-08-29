@@ -2,7 +2,7 @@
 
 This project is the backend of employee, a virtual Employer-employee link app. 
 
-This is the implementation of Vidly in Node.js.
+This is the implementation of employee app in Node.js.
 
 ## Setup
 
