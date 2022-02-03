@@ -1,8 +1,24 @@
+# Fetan - Delivery Service App 
+An online Employer-employee link app. 
+
+## Table of contents
+* [Introduction](#introduction)
+* [Technologies](#technologies)
+* [Setup](#setup)
+
 ## Introduction
+An online Employer-employee link app. 
 
-This project is the backend of employee, a virtual Employer-employee link app. 
+<!-- ![Software Developer](https://github.com/abenikeb/fetandelivery/blob/main/fetan_mock_2.png) -->
+<img src="https://github.com/abenikeb/abenikeb/blob/main/DesktopV1.png" width="500" />
 
-This is the implementation of employee app in Node.js.
+	
+## Technologies
+Project is created with:
+* 🖥 JS
+* 🖥 Node JS 
+* 💻 Express Js
+* 💻 Mongo DB
 
 ## Setup
 
@@ -38,13 +54,11 @@ All tests should pass.
 
     node index.js
 
-This will launch the Node server on port 3900. If that port is busy, you can set a different point in config/default.json.
-
 Open up your browser and head over to:
 
 http://localhost:3900/api/employee
 
-You should see the list of genres. That confirms that you have set up everything successfully.
+You should see the list of items. That confirms that you have set up everything successfully.
 
 ### (Optional) Environment Variables
 
@@ -57,3 +71,4 @@ On Mac:
 On Windows:
 
     set employee_jwtPrivateKey=yourSecureKey
+
