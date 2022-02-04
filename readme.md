@@ -1,74 +1,42 @@
-# Fetan - Delivery Service App 
-An online Employer-employee link app. 
+<h1 align="center">Welcome to Employee 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <a href="#" target="_blank">
+    <img alt="License: ISC" src="https://img.shields.io/badge/License-ISC-yellow.svg" />
+  </a>
+  <a href="https://twitter.com/abenezerkebede4" target="_blank">
+    <img alt="Twitter: abenezerkebede4" src="https://img.shields.io/twitter/follow/abenezerkebede4.svg?style=social" />
+  </a>
+</p>
 
-## Table of contents
-* [Introduction](#introduction)
-* [Technologies](#technologies)
-* [Setup](#setup)
+> An online Employer-employee link app.
 
-## Introduction
-An online Employer-employee link app. 
+### ✨ [Demo](https://hidden-scrubland-14017.herokuapp.com/movies)
 
-<!-- ![Software Developer](https://github.com/abenikeb/fetandelivery/blob/main/fetan_mock_2.png) -->
-<img src="https://github.com/abenikeb/abenikeb/blob/main/DesktopV1.png" width="500" />
+## Install
 
-	
-## Technologies
-Project is created with:
-* 🖥 JS
-* 🖥 Node JS 
-* 💻 Express Js
-* 💻 Mongo DB
+```sh
+npm install
+```
 
-## Setup
+## Usage
 
-Make sure to follow all these steps exactly as explained below. Do not miss any steps or you won't be able to run this application.
+```sh
+npm run start
+```
 
-### Install MongoDB
+## Author
 
-To run this project, you need to install the latest version of MongoDB Community Edition first.
+👤 **Abnezer Kebede**
 
-https://docs.mongodb.com/manual/installation/
+* Website: https://github.com/abenikeb
+* Twitter: [@abenezerkebede4](https://twitter.com/abenezerkebede4)
+* Github: [@abenikeb](https://github.com/abenikeb)
+* LinkedIn: [@abenezer-kebede-804479214](https://linkedin.com/in/abenezer-kebede-804479214)
 
-Once you install MongoDB, make sure it's running.
+## Show your support
 
-### Install the Dependencies
+Give a ⭐️ if this project helped you!
 
-Next, from the project folder, install the dependencies:
-
-    npm i
-
-### Populate the Database
-
-    node seed.js
-
-### Run the Tests
-
-You're almost done! Run the tests to make sure everything is working:
-
-    npm test
-
-All tests should pass.
-
-### Start the Server
-
-    node index.js
-
-Open up your browser and head over to:
-
-http://localhost:3900/api/employee
-
-You should see the list of items. That confirms that you have set up everything successfully.
-
-### (Optional) Environment Variables
-
-If you look at config/default.json, you'll see a property called jwtPrivateKey. This key is used to encrypt JSON web tokens. So, for security reasons, it should not be checked into the source control. I've set a default value here to make it easier for you to get up and running with this project. For a production scenario, you should store this key as an environment variable.
-
-On Mac:
-
-    export employee_jwtPrivateKey=yourSecureKey
-
-On Windows:
-
-    set employee_jwtPrivateKey=yourSecureKey
-
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
